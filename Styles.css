@@ -1,0 +1,129 @@
+
+        body {
+            background: url(Image/BackGround.webp);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: #0d4363;
+            margin: 0;
+
+
+        }
+
+        /*Стиль тела сайта*/
+
+        div.header {
+            position: fixed;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 40px;
+            width: 100%;
+            padding: none;
+            min-width: 550px;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.38);
+            border: 2px solid rgb(46, 151, 171);
+            line-height: 35px;
+            box-sizing: border-box;
+        }
+
+        /*Шапка сайте*/
+
+        span.main {
+        box-sizing: content-box;
+        width: 100%;
+        }
+
+        div.mainleft {
+            position: absolute;
+            box-sizing: content-box;
+            top: 60%;
+            left: 20%;
+            right: 35%;
+            height: 1000px;
+            min-width: 120px;
+            padding-left: 40px;
+            background-color: rgba(255, 255, 255, 0.38);
+            border-left: 5px solid rgb(46, 151, 171);
+            border-top-left-radius: 10px;
+            border-top: 5px solid rgb(46, 151, 171);
+            border-bottom-left-radius: 10px;
+            border-bottom: 5px solid rgb(46, 151, 171);
+        }
+
+        /*Левая основная колонка сайта*/
+
+        div.mainright {
+            position: absolute;
+            box-sizing: content-box;
+            top: 60%;
+            left: 65%;
+            min-width: 180px;
+            right: 20%;
+            height: 1000px;
+            padding-left: 20px;
+            background-color: rgba(255, 255, 255, 0.38);
+            border: 5px solid rgb(46, 151, 171);
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        /*Правая основная колонка сайта*/
+
+        div.footer {
+            position: absolute;
+            top: 1900px;
+            width: 100%;
+            min-width: 1000px;
+            height: 100px;
+            background-color: rgba(255, 255, 255, 0.38);
+            border-top: 5px solid rgb(46, 151, 171);
+
+        }
+
+        /*Подвал сайта*/
+
+        .HeaderForm {
+            background-color: rgb(46, 151, 171);
+            text-align: center;
+            width: 100px;
+            padding: 2px;
+            border: 2px solid rgb(13, 82, 118);
+            border-radius: 10px;
+        }
+
+        /* Выбор списка в шапке №1*/
+
+        .logButtonStyleNone {
+            text-decoration: none;
+            color: #000000;
+            padding: 4px;
+        }
+
+        /* Удаление нижнего подчеркивания кнопки входа */
+        .Search {
+            border-color: #2589a2;
+            background-color: rgb(46, 151, 171);
+        }
+        /* Поле поиска */
+
+        @keyframes to-white {
+            0% {
+                color: black;
+            }
+
+            50% {
+                color: white;
+            }
+
+            100% {
+                color: black;
+            }
+        }
+
+        .black-white {
+            animation: to-white 3s infinite;
+        }
+
