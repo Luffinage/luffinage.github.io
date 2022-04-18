@@ -109,24 +109,51 @@
         .Search {
             border-color: #2589a2;
             background-color: rgb(46, 151, 171);
+            font-style: italic;
+            color: #999;
         }
         /* Поле поиска */
 
-        @keyframes to-white {
+        @keyframes rainbow {
             0% {
-                color: black;
+                color: pink;
+            }
+            10% {
+            color: red
+            }
+            20% {
+                color: orange;
             }
 
+            30% {
+                color: gold;
+            }
+            40% {
+                color: yellow;
+            }
             50% {
-                color: white;
+            color: lime;
+            }
+            60% {
+                color: green;
+            }
+
+            70% {
+                color: cyan;
+            }
+            80% {
+            color: blue;
+            }
+            90% {
+                color: indigo;
             }
 
             100% {
-                color: black;
+                color: violet;
             }
         }
 
-        .black-white {
-            animation: to-white 3s infinite;
+        .rainbow {
+            animation: rainbow 10s infinite;
         }
-
+            /* цветная анимация слова Search */
