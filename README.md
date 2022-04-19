@@ -1,4 +1,4 @@
-# Hello World!
+title: [Hello World!]
 * it's me *
 <html lan="ru">
   <head>
@@ -48,7 +48,7 @@ body.border
             border: 2px solid rgb(46, 151, 171);
             border-radius: 20px;
             box-sizing: border-box;
-            justify-content: space-around;
+            
             align-items: center;
             text-align: center;
             background-color: rgba(255, 255, 255, 0.38);
