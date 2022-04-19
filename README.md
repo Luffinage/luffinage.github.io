@@ -11,7 +11,9 @@ Hello World!
             background-size: cover;
             background-color: #0d4363;
             margin: 0;
-
+            color: #ffffff;
+            justify-content: space-around;
+            align-items: center;
 
         }
                    
