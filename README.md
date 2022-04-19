@@ -43,12 +43,12 @@ body.border
        {
             position: absolute;
             top: 50%;
-            width: 300px;
+            left: 40%;
+            width: 400px;
             border: 2px solid rgb(46, 151, 171);
             border-radius: 20px;
             box-sizing: border-box;
             
-            align-items: center;
             text-align: center;
             background-color: rgba(255, 255, 255, 0.38);
        }
