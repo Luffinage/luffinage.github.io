@@ -55,7 +55,7 @@ body.border
        }
        </style>     
   </head>
-                   <body>
+                   <body class="border">
 <a href="Page_Main.html">Go to my syte!</a>
                         </body>
 </html>
