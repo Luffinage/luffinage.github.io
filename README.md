@@ -1,7 +1,6 @@
 
 # Hello World! 
 
-## My site is here: *<a href="https://github.com/Luffinage/luffinage.github.io/blob/main/Luffinage.Site.html">My Site</a>*
+## My site is here: *<a href="https://luffinage.github.io/Luffinage.Site.html">My Site</a>*
 
 
-https://github.com/Luffinage/luffinage.github.io/blob/main/Luffinage.Site.html
