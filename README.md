@@ -32,7 +32,7 @@ Hello World!
             color: #ffffff;
             justify-content: space-around;
             align-items: center;
-       
+            text-align: center;
         }
 
        </style>     
