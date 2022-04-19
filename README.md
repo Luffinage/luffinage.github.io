@@ -56,6 +56,6 @@ body.border
        </style>     
   </head>
                    <body>
-<a href="Page_Main.html">## Go to my syte!</a>
+<a href="Page_Main.html">Go to my syte!</a>
                         </body>
 </html>
