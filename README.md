@@ -1,6 +1,6 @@
 
 # Hello World! 
-## *\/ Click heare \/*
+## *Click *<a href="Page_Main.html">here</a>
 
 <html lan="ru">
   <head>
