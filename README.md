@@ -21,25 +21,28 @@
           href="Image/Icon_Site_HTML5.png"
           type="image/png" sizes="64x64">
      <style>
-                   body {
-            position: absolute;
+      html {
+       position: absolute;
             top: 50%;
             Left 40%;
             right 40%;
             border: 2px solid rgb(46, 151, 171);
             border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.38);
             box-sizing: border-box;
             justify-content: space-around;
             align-items: center;
             text-align: center;
             margin: 0;
             color: #ffffff;
+       }
+        body {         
             background: url(Image/BackGround.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
-            background-color: rgba(255, 255, 255, 0.38);
+            background-color: #0d4363;
             
             
         }
