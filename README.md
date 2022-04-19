@@ -34,6 +34,9 @@ Hello World!
             align-items: center;
             text-align: center;
         }
+       a {
+       color: #ffffff;
+       }
 
        </style>     
   </head>
