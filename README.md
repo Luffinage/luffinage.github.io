@@ -1,4 +1,3 @@
-# luffinage.github.io
 <!doctype html>
 <html lang="ru">
 <head>
