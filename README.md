@@ -16,7 +16,7 @@ Hello World!
             align-items: center;
 
         }
-    </style>         
+           
   </head>
                    <body>
 <a href="Page_Main.html">Go to my syte!</a>
