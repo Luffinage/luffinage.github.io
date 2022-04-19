@@ -43,8 +43,7 @@ body.border
        {
             position: absolute;
             top: 50%;
-            Left 40%;
-            right 40%;
+            width: 300px;
             border: 2px solid rgb(46, 151, 171);
             border-radius: 20px;
             box-sizing: border-box;
