@@ -1,7 +1,7 @@
 
 # Hello World! 
 # *<a href="https://luffinage.github.io/">Click here</a>*
-# *<a href="Page_Main.html">Click here</a>*
+
 
 <html lan="ru">
   <head>
@@ -61,3 +61,4 @@ body.border
 
                         </body>
 </html>
+# *<a href="Page_Main.html">Page 1</a>*
