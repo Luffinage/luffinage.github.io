@@ -1,7 +1,7 @@
 
 # <p align="center"> Hello World! </p>
 
-## <p align="center"> My site is here: </p> 
-## <p align="center">*<a href="https://luffinage.github.io/Home_Page.html">My Site</a>* </p> 
+## <p align="center"> My site is *<a href="https://luffinage.github.io/Home_Page.html">Here</a>* </p> 
+
 
 
