@@ -24,6 +24,11 @@ Hello World!
                    body {
             position: absolute;
             top: 50%;
+            Left 40%;
+            right 40%;
+            border: 2px solid rgb(46, 151, 171);
+            border-radius: 20px;
+            box-sizing: border-box;
             justify-content: space-around;
             align-items: center;
             text-align: center;
@@ -34,7 +39,7 @@ Hello World!
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
-            background-color: #0d4363;
+            background-color: rgba(255, 255, 255, 0.38);
             
             
         }
