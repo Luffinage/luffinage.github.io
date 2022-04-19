@@ -22,17 +22,21 @@ Hello World!
           type="image/png" sizes="64x64">
      <style>
                    body {
+            position: absolute;
+            top: 50%;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+            color: #ffffff;
             background: url(Image/BackGround.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
             background-color: #0d4363;
-            margin: 0;
-            color: #ffffff;
-            justify-content: space-around;
-            align-items: center;
-            text-align: center;
+            
+            
         }
        a {
        color: #ffffff;
