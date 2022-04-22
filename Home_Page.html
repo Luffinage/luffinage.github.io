@@ -1,5 +1,7 @@
 <!doctype html>
 <html lang="ru">
+
+<!-- Информация о сайте -->
 <head>
     <title>Hello, World!</title>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
@@ -10,6 +12,8 @@
     <meta name="application-name" content="Site from Luffi">
     <meta name="theme-color" content="#FFC0CB">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--     Иконка сайта -->
     <link rel="icon"
           href="Image/Icon_Site_HTML5.png"
           type="image/png" sizes="16x16">
@@ -19,14 +23,17 @@
     <link rel="icon"
           href="Image/Icon_Site_HTML5.png"
           type="image/png" sizes="64x64">
-<!--     Иконка сайта -->
     <link href="css/Home_Page.css" rel="stylesheet">
 
 </head>
-<!-- Информация о сайте -->
+
+<!-- Тело сайта -->
 <body>
+
+<!--  Шапка сайта -->
 <header>
 
+    <!--         Список в шапке №1 -->
     <div class="header">
 
         <div>
@@ -37,42 +44,17 @@
                 </select>
             </label>
         </div>
-<!--         Список в шапке №1 -->
 
-                <div>
-                    <label>
-                        <button class="HeaderForm">
-                            <a href="CV.html" class="logButtonStyleNone">CV</a>
-                        </button>
-                    </label>
-                </div>
         <!--       Кнопка в шапке позизиция №2 -->
-        <!--      <div>
-                  <label>
-                      <select class="HeaderForm">
-                          <option>Главная3</option>
-                          <option>Страница 2</option>
-                          <option>Страница 3</option>
-                          <option>Страница 4</option>
-                          <option>Страница 5</option>
-
-                      </select>
-                  </label>
-              </div>
-              Список в шапке №3 -->
-        <!--  <div>
+        <div>
             <label>
-                <select class="HeaderForm">
-                    <option>Главная4</option>
-                    <option>Страница 2</option>
-                    <option>Страница 3</option>
-                    <option>Страница 4</option>
-                    <option>Страница 5</option>
-                </select>
+                <button class="HeaderForm">
+                    <a href="CV.html" class="logButtonStyleNone">CV</a>
+                </button>
             </label>
         </div>
-           Список в шапке №4      -->
 
+        <!--         Кнопка входа в шапке       -->
         <div>
             <label>
                 <button class="HeaderForm">
@@ -81,49 +63,66 @@
             </label>
         </div>
 
-<!--         Кнопка входа в шапке       -->
     </div>
-
-
-    <div>
-        <div class="WellcomeMidleBorder">
-
-        </div>
-    </div>
-
 
 </header>
-<!--  Шапка сайта -->
-<main>
-    <span class="main">
-    <div class="mainleft">
 
-        <p><a  href="https://www.instagram.com/luffinage/"> <img  class="Luffinage" src="Image/Luffinage.jpg" alt="@Luffinage" ></a></p>
-
-       <div class="textmain">
-           <h1> Wellcome to little Internet Page!</h1>
-        <h2> Huj y menja a big</h2>
-
-           </div>
-    </div>
-
-    <div class="mainright">
-        <p><em>Hello</em></p>
-        <form>
-            <label class="rainbow">
-                <b>Search:</b>
-                <input type="search" placeholder="How by lyfe..." class="Search">
-            </label>
-        </form>
-        <ul> Зачем всё это?
-            <li>Интересно;</li>
-            <li>Перспективно;</li>
-            <Li>Локально универсально.</Li>
-        </ul> <!-- Список в правом блоке-->
-    </div>
-    </span>
-</main>
 <!-- Основная часть страницы -->
+<main>
+    <!--Основной блок сайта-->
+    <div class="main">
+
+        <!--Левый основной блок-->
+        <div class="mainleft">
+            <div class="left1">
+            <!--   Блок с заголовком   -->
+            <div class="left2">
+                <div>
+                    <h1> Добро пожаловать!</h1>
+                    <p>Данный сайт разработан и <em>продолжает разрабатываться</em> на языках веб-верстки: <b>HTML5</b>
+                        и <b>CSS3</b>. В дальнейшем к ним присоединиться и язык <b>Java Script</b>.</p>
+                </div>
+            </div>
+
+            <!--   Блок с логотипом   -->
+            <div class="right2">
+                <div class="pos">
+                    <a href="https://www.instagram.com/luffinage/">
+                        <img class="L" src="Image/Luffinage.jpg" alt="@Luffinage">
+                    </a>
+                </div>
+
+            </div>
+            </div>
+            <!--   Содержимое левого основного блока   -->
+            <div class="maintext">
+                <div>
+                    <h2>Источники информации для обучения:</h2>
+                    <p> В процессе обучения я пользовался информацией из интернета, а в редких случаях - консультацией компетентных людей.</p>
+                    <p>В частности, могу лично посоветовать сайт <a href="https://ru-code-basics.com">Code-Basics</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!--   Правый основной блок   -->
+        <div class="mainright">
+            <div>
+                <h2 class="rainbow"> Hello</h2>
+                <form>
+                    <input id="search" class="Search" placeholder="How i can read...">
+                    <button id="search"> Search</button>
+                </form>
+                <!--
+                                <iframe src="https://www.instagram.com/p/luffinage/embed" frameborder="0"></iframe>
+                -->
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+<!-- Подвал страницы -->
 <footer>
     <div class="footer">
         <p>Очень важная информация</p>
@@ -131,7 +130,5 @@
 
 
 </footer>
-<!-- Подвал страницы -->
 </body>
-<!-- Тело сайта -->
 </html>
