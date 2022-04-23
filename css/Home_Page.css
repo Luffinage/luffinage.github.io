@@ -45,6 +45,7 @@
             padding: 2px;
             border: 2px solid rgb(13, 82, 118);
             border-radius: 10px;
+            cursor: pointer;
         }
 
 
@@ -61,6 +62,7 @@
             border: 5px solid rgb(46, 151, 171);
             border-radius: 10px;
             }
+
             /* Левый основной блок */
         div.mainleft {
             display: block;
@@ -136,14 +138,29 @@
             height: 100%;
             border-left: 5px solid rgb(46, 151, 171);
             text-align: center;
-                  }
+        }
+
 
         /* Поле поиска */
         .Search {
             border-color: #2589a2;
             background-color: rgb(46, 151, 171);
             font-style: italic;
-            color: #999;
+            color: yellow;
+            outline-color: aquamarine;
+            margin-bottom: 10px;
+        }
+        ::-webkit-input-placeholder { /* WebKit browsers */
+           color:    aquamarine;
+        }
+        :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+           color:    aquamarine;
+        }
+        ::-moz-placeholder { /* Mozilla Firefox 19+ */
+           color:    aquamarine;
+        }
+        :-ms-input-placeholder { /* Internet Explorer 10+ */
+           color:    aquamarine;
         }
 
 
