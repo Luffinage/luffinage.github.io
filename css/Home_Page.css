@@ -46,8 +46,12 @@
             border: 2px solid rgb(13, 82, 118);
             border-radius: 10px;
             cursor: pointer;
+
         }
 
+        .HeaderForm:hover {
+        opacity: 0.8;
+        }
 
         /* Основной блок сайта */
         div.main {
@@ -229,6 +233,7 @@
         a:hover {
             text-decoration: underline;
             color: aquamarine;
+            opacity: 0.8;
         }
         a:active {
             color: blue;
