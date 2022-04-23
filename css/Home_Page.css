@@ -48,6 +48,10 @@
             text-decoration: none;
             color: #000000;
             }
+        a:hover {
+        text-decoration: underline;
+        color: aquamarine;
+        }
         /* Основной блок сайта */
         div.main {
             display: flex;
