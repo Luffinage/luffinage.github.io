@@ -69,7 +69,6 @@
             width: 70%;
             min-width: 700px;
             height: 100%;
-                        border: 5px dashed red;
 
         }
 
@@ -88,7 +87,6 @@
             width: 500px;
             height: 250px;
             min-width: 500px;
-                        border: 5px dashed red;
 
         }
 
@@ -101,15 +99,13 @@
             width: 200px;
             height: 250px;
             min-width:200px;
-                        border: 5px dashed red;
 
         }
 
         /* Содержимое левого основного блока*/
         div.maintext {
-
+            padding: 20px;
             box-sizing: border-box;
-            border: 5px dashed red;
             }
          /* Логотип */
         img.L {
