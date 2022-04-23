@@ -1,6 +1,10 @@
 
+        * {
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        text
+        }
         /*Стиль тела сайта*/
-        html,
+
         body {
             background: url(Image/BackGround.webp);
             background-position: center center;
@@ -25,7 +29,7 @@
             top: 10px;
             left: 50px;
             right: 50px;
-            min-width: 1100px;
+            min-width: 1200px;
             border-radius: 20px;
             background-color: rgba(255, 255, 255, 0.38);
             border: 2px solid rgb(46, 151, 171);
@@ -43,15 +47,7 @@
             border-radius: 10px;
         }
 
-        /* Стиль ссылок */
-        a {
-            text-decoration: none;
-            color: #000000;
-            }
-        a:hover {
-        text-decoration: underline;
-        color: aquamarine;
-        }
+
         /* Основной блок сайта */
         div.main {
             display: flex;
@@ -60,7 +56,7 @@
             margin-top: 400px;
             width: 1000px;
             min-width: 1000px;
-            height: 2000px;
+            height: 2100px;
             background-color: rgba(255, 255, 255, 0.38);
             border: 5px solid rgb(46, 151, 171);
             border-radius: 10px;
@@ -198,13 +194,33 @@
 
         /*Подвал сайта*/
         div.footer {
-            flex: 0 0 auto;
-            margin-top: 500px;
             display: flex;
             justify-content: space-around;
-            height: 200px;
+            flex: 0 0 auto;
+            margin-top: 500px;
+            height: 220px;
             background-color: rgba(255, 255, 255, 0.38);
             border-top: 5px solid rgb(46, 151, 171);
 
         }
 
+        /* Стиль ссылок */
+        a {
+            text-decoration: none;
+            color: #000000;
+            }
+        a:hover {
+            text-decoration: underline;
+            color: aquamarine;
+        }
+        a:active {
+            color: blue;
+        }
+        a:visited {
+            text-decoration: underline;
+            color: rebeccapurple;
+        }
+
+        p {
+        font-size: 18px;
+        }
