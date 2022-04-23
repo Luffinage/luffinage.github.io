@@ -69,7 +69,7 @@
             height: 100%;
 
         }
-
+        /* Общий блок Заголовка и Логотипа */
         div.left1 {
             display: flex;
             box-sizing: border-box;
@@ -100,6 +100,7 @@
 
         }
 
+           /* Линия под Заголовком */
         div.line {
             height: 10px;
             margin-left: 100px;
