@@ -219,9 +219,33 @@
             justify-content: space-around;
             flex: 0 0 auto;
             margin-top: 500px;
+            min-width: 100%;
             height: 220px;
             background-color: rgba(255, 255, 255, 0.38);
             border-top: 5px solid rgb(46, 151, 171);
+
+        }
+
+        /* Блок подвала №1 */
+        .footer1 {
+        }
+
+
+        /* Блок подвала №2 */
+        .footer2 {
+        position: center;
+        }
+        /* Блок подвала №3 */
+        .footer3 {
+
+        }
+
+
+        /* Блок Google Translate */
+        .GoogleTranslate {
+        border: 3px solid rgb(46, 101, 171);
+        border-radius: 3px;
+        margin-top: 150px;
 
         }
 
