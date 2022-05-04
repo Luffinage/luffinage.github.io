@@ -1,4 +1,4 @@
-
+        /* Стиль шрифтов */
         * {
         font-family: Comic Sans MS, Comic Sans, cursive;
         text
@@ -267,6 +267,8 @@
             color: rebeccapurple;
         }
 
+
+        /* Стиль параграфа */
         p {
         font-size: 18px;
         }
