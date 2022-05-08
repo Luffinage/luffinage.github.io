@@ -1,0 +1,10 @@
+        /* Стартовая позиция кометы */
+        div#Comet {
+        position: absolute;
+        right: 0;
+        top: 0;
+        pointer-events: none;
+        }
+
+
+
